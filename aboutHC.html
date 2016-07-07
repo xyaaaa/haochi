@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app='myApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于浩驰</title>
+    <meta name="keywords" content="浩驰网络" />
+    <meta name="description" content="浩驰" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <!-- 小图标 -->
+    <link rel="icon" href="images/haochi.ico">
+    <meta name="author" content="design by xy">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutHC.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/sea.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/AngularJs/angular.min.js"></script>
+    <script type="text/javascript" src="lib/AngularJs/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="clearfix">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+            <div class="right clearfix">
+                <div class="language clearfix">
+                    <ul class="clearfix">
+                        <li>
+                            <select>
+                                <option selected="true">language</option>
+                                <option>中文</option>
+                                <option>English</option>
+                            </select>
+                        </li>
+                        <li>
+                            400服务热线：
+                            <span>400-180-8626</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="daohang clearfix">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="">加入浩驰</a>
+                        </li>
+                        <li>
+                            <a href="">浩驰动态</a>
+                        </li>
+                        <li>
+                            <a href="">增值服务</a>
+                        </li>
+                        <li>
+                            <a href="">浩驰服务</a>
+                        </li>
+                        <li class="li">
+                            <a href="">关于浩驰</a>
+                        </li>
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="content">
+        <div class="flex-slider">
+            <ul id="flexiselDemo1">
+                <li>
+                    <div class="media">
+                        <a href="gallery.html"><img src="images/2(0).jpg" alt="" /></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="gallery.html"><img src="images/2(1).jpg" alt="" /></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="gallery.html"><img src="images/2(2).jpg" alt="" /></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="gallery.html"><img src="images/2(3).jpg" alt="" /></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="gallery.html"><img src="images/2(4).jpg" alt="" /></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="fourth">
+        <div class="top">
+            <h2>
+                    <big>CASE</big>
+                     &
+                    <big class='big'>案例</big>
+                </h2>
+        </div>
+        <div class="ul1">
+            <ul class="clearfix">
+                <li class="li1">
+                    <a href="">网站建设与传播</a>
+                </li>
+                <li>
+                    <a href="">电子商务</a>
+                </li>
+                <li>
+                    <a href="">数字化展馆</a>
+                </li>
+                <li>
+                    <a href="">多媒体互动</a>
+                </li>
+                <li>
+                    <a href="">软件服务</a>
+                </li>
+                <li>
+                    <a href="">移动开发</a>
+                </li>
+            </ul>
+        </div>
+        <div class="photo">
+            <ul class="clearfix">
+                <li class="li1">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">“中国兽药饲料交易中心”平台</p>
+                            <p class="p2">集中兽药饲料产业行业链中各环节的药厂企业和经销商</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li2">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">轻骑摩托</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li3">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">上海追日</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li4">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">好吃天下</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li5">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">华海保险</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li6">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">中国重汽</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li7">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">上海海加</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li8">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">绿叶投资</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+                <li class="li9">
+                    <a href="">
+                        <div class="cont">
+                            <p class="p1">冠鸿生</p>
+                        </div>
+                        <span class="border border-t"></span>
+                        <span class="border border-r"></span>
+                        <span class="border border-b"></span>
+                        <span class="border border-l"></span>
+                        <span class="bg"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <ul class="clearfix">
+                <li>
+                    <div class="div">
+                        <span class="span1">12</span>小时
+                        <span class="span2"></span>
+                    </div>
+                    <p>无缝服务 保姆式精心照顾</p>
+                </li>
+                <li>
+                    <div class="div">
+                        <span class="span1">985</span>家
+                        <span class="span2"></span>
+                    </div>
+                    <p>知名企业实施案例</p>
+                </li>
+                <li>
+                    <div class="div">
+                        <span class="span1">163</span>人
+                        <span class="span2"></span>
+                    </div>
+                    <p>专业设计开发团队</p>
+                </li>
+                <li>
+                    <div class="div">
+                        <span class="span1">42</span>家
+                        <span class="span2"></span>
+                    </div>
+                    <p>合作上市企业</p>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <div class="footer">
+        <div class="logo clearfix">
+            <a href="">
+                <img src="images/foot_logo.png">
+            </a>
+            <p>互联网综合解决方案提供商</p>
+        </div>
+        <div class="kong" id="tagcloud">
+            <ul class="clearfix">
+                <li><a href="###">公司介绍</a></li>
+                <li><a href="###">招聘信息</a></li>
+                <li><a href="###">联系我们</a></li>
+                <li><a href="###">公司图片</a></li>
+            </ul>
+        </div>
+        <!-- 分享 -->
+        <div class="fenx">
+            <ul class="clearfix">
+                <li>
+                    <a href="###" class="a1"></a>
+                </li>
+                <li>
+                    <a href="###" class="a2"></a>
+                </li>
+                <li>
+                    <a href="###" class="a3"></a>
+                </li>
+                <li>
+                    <a href="###" class="a4"></a>
+                </li>
+                <li>
+                    <a href="###" class="a5"></a>
+                </li>
+                <li>
+                    <a href="###" class="a6"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- 维护 -->
+        <div class="weihu">
+            <div class="phone">
+                电话：400-180-8626，0535-8019228，0535-8019279 &nbsp; 传真：0535-8019269 &nbsp; 邮箱：
+                <a href="">haochi@hugch.com</a> &nbsp; 网址：
+                <a href="">www.hugch.com </a>
+            </div>
+            <div class="xy">
+                <a href="">浩驰网络 版权所有</a> &nbsp; Copyright © 2015 All rights reserved &nbsp;
+                <a href="">[鲁ICP备15001280号]</a>
+            </div>
+            <div id="author">
+                <a href="">项洋</a> &nbsp; 制作维护
+            </div>
+        </div>
+        <!-- 二维码 -->
+        <div class="ma">
+            <ul class="clearfix">
+                <li>
+                    <img src="images/20150602111945606.png">
+                    <p>公众微信</p>
+                </li>
+                <li>
+                    <img src="images/20150804083957768.png">
+                    <p>手机站</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+$(window).load(function() {
+    $("#flexiselDemo1").flexisel({
+        visibleItems: 5, //一行显示个数
+        animationSpeed: 1000, //动画时间
+        autoPlay: true, //自动播放
+        autoPlaySpeed: 3000, //播放间隔时间        
+        pauseOnHover: true, //鼠标悬浮是否停止播放
+        enableResponsiveBreakpoints: true, //是否开启响应式
+        responsiveBreakpoints: {
+            portrait: { //项目名。可随意命名
+                changePoint: 480,
+                visibleItems: 2
+            },
+            landscape: {
+                changePoint: 640,
+                visibleItems: 3
+            },
+            tablet: {
+                changePoint: 768,
+                visibleItems: 3
+            }
+        }
+    });
+});
+</script>
+
+</html>

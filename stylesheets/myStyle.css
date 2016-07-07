@@ -1,0 +1,35 @@
+.myclock_01{border-bottom:1px solid #111;border-top:1px solid #111;background:#302b23;padding: 50px 0;}
+.myclock_01 .clock_box{border:1px solid #111;width:602px;height:202px;background:#253535;margin:0 auto;}
+.myclock_01 .clock_box > div {width:200px;height:200px;float:left;position:relative;overflow:hidden;}
+.myclock_01 .left_clock_area,.myclock_01 .right_clock_area{position:absolute;width:100%;height:100%;transition:all .5s ease;z-index:3}
+.myclock_01 .right_clock_area{z-index:1}
+.myclock_01 .left_clock,.myclock_01 .right_clock,.myclock_01 .left_bg,.myclock_01 .right_bg{width:50%;height:100%;float:left;position:relative;}
+.myclock_01 .left_clock,.myclock_01 .right_clock{background:url('../images/bg_green.png')  top left no-repeat;z-index:3}
+.myclock_01 .hour_area .left_clock,.myclock_01 .hour_area .right_clock{background:url('../images/bg_orange.png')  top left no-repeat}
+.myclock_01 .min_area .left_clock,.myclock_01 .min_area .right_clock{background:url('../images/bg_blue.png') top left no-repeat}
+.myclock_01 .hour_area .right_clock,.myclock_01 .min_area .right_clock,.myclock_01 .right_clock{float:right;z-index:1;background-position:top right;}
+.myclock_01 .left_bg{z-index:4;background:#253535;}
+.myclock_01 .right_bg{z-index:2;background:#253535;}
+.myclock_01 .time_area{color:#FFF;font-size:64px;position:absolute;z-index:5;width:100%;height:64px;line-height:64px;top:50%;margin-top:-32px;text-align:center;}
+
+.myclock_02{background:#CCC;padding:100px 0;}
+.myclock_02 .sec_area{width:160px;margin:0 auto;}
+.myclock_02 .circle_box_area{margin:0 5px;width:70px;height:60px;position:relative;-webkit-perspective: 1000;}
+.myclock_02 .circle_box{width:70px;height:60px;position:relative;-webkit-transform-style:preserve-3d;}
+.myclock_02 .circle_box .face_item{background:rgba(50, 50, 50, 0.9);position:absolute;width:70px;height:60px;color:#FFF;font-size:48px;line-height:60px;text-align:center;}
+.myclock_02 .circle_box .item_100{-webkit-transform:translateZ(92.5354px);}
+.myclock_02 .circle_box .item_101{-webkit-transform:rotateX(36deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_102{-webkit-transform:rotateX(72deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_103{-webkit-transform:rotateX(108deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_104{-webkit-transform:rotateX(144deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_105{-webkit-transform:rotateX(180deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_106{-webkit-transform:rotateX(216deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_107{-webkit-transform:rotateX(252deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_108{-webkit-transform:rotateX(288deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_109{-webkit-transform:rotateX(324deg) translateZ(92.5354px);}
+.myclock_02 .circle_box .item_60{-webkit-transform:rotateX(0deg) translateZ(52.3px);}
+.myclock_02 .circle_box .item_61{-webkit-transform:rotateX(60deg) translateZ(52.3px);}
+.myclock_02 .circle_box .item_62{-webkit-transform:rotateX(120deg) translateZ(52.3px);}
+.myclock_02 .circle_box .item_63{-webkit-transform:rotateX(180deg) translateZ(52.3px);}
+.myclock_02 .circle_box .item_64{-webkit-transform:rotateX(240deg) translateZ(52.3px);}
+.myclock_02 .circle_box .item_65{-webkit-transform:rotateX(300deg) translateZ(52.3px);}
